@@ -29,7 +29,7 @@ Para poder levantar el microfrontend en local tener también clonados e instalad
 2. Clonar el repo
 
    ```sh
-      git clone git@github.com:LisitSPA/mf-style-guide-ui-ui.git
+      git clone git@github.com:LisitSPA/mf-style-guide-ui.git
    ```
 
 3. Instalar NPM packages
