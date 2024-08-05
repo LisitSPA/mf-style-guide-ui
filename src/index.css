@@ -1,0 +1,52 @@
+@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-popups/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css";
+
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --primary-violet-color: #820ad1;
+  --primary-white-color: #ffffff;
+  --primary-info-color: #e0e8f1;
+  --secondary-info-color: #c8c7cc;
+  --tertiary-info-color: #efeff4;
+  --primary-black-color: #000000;
+  --secondary-black-color: #261a3a;
+
+  /* Background colors */
+  --background-color: var(--primary-info-color);
+  --header-background-color: var(--primary-white-color);
+  --sidebar-background-color: var(--primary-white-color);
+  --content-background-color: var(--primary-white-color);
+}
+button {
+  box-shadow: none;
+}
+.app-container {
+  display: flex;
+  height: 100vh;
+  position: relative;
+}
+.app-container > nav {
+  width: 100vw;
+}
+.app-container > .main-content.e-content-animation {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0 !important;
+}
+.app-container > main {
+  position: absolute;
+  top: 80px;
+  left: 60px;
+  padding: 20px;
+  width: -webkit-fill-available;
+  height: 83vh;
+  z-index: 1;
+}
