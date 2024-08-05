@@ -35,7 +35,7 @@ Para poder levantar el microfrontend en local tener también clonados e instalad
 3. Instalar NPM packages
 
    ```sh
-     npm install --legacy-peer-deps
+     npm install 
    ```
 
 ### Uso
