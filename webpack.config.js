@@ -13,5 +13,12 @@ module.exports = (webpackConfigEnv, argv) => {
     devServer: {
       port: 9005,
     },
+    // plugins: [
+    //   new CopyWebpackPlugin({
+    //     patterns: [
+    //       { from: path.resolve(__dirname, "public/locales"), to: "locales" },
+    //     ],
+    //   }),
+    // ],
   });
 };
